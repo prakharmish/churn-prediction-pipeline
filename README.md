@@ -4,13 +4,12 @@ End-to-end ML pipeline to predict customer churn using the IBM Telco dataset.
 
 ## Results
 
-| Model            | AUC      | F1       |
-| ---------------- | -------- | -------- |
-| Dummy Baseline   | 0.50     | 0.00     |
-| XGBoost Default  | 0.81     | 0.55     |
+| Model | AUC | F1 |
+|---|---|---|
+| Dummy Baseline | 0.50 | 0.00 |
+| XGBoost Default | 0.81 | 0.55 |
 | XGBoost + Optuna | **0.85** | **0.56** |
 
-## Project Structure
 ## Project Structure
 
 ```
@@ -30,6 +29,7 @@ tabular-ml-pipeline/
 ├── Dockerfile
 └── requirements.txt
 ```
+
 ## Tech Stack
 
 - **Modeling:** XGBoost, scikit-learn
