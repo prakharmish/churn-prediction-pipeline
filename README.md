@@ -10,6 +10,19 @@ End-to-end ML pipeline to predict customer churn using the IBM Telco dataset.
 | XGBoost Default | 0.81 | 0.55 |
 | XGBoost + Optuna | **0.85** | **0.56** |
 
+## Business Impact
+
+A telecom company with 100,000 customers and a 26% churn rate loses ~26,000 customers every month.
+
+With this model (AUC 0.85):
+- If we identify 70% of churners before they leave
+- And retention campaigns save 30% of those flagged customers
+- That's **~5,400 customers saved per month**
+
+At an average revenue of $65/month per customer, that's **~$350,000 in monthly revenue protected**.
+
+This is why churn prediction is one of the most ROI-positive ML applications in industry.
+
 ## Project Structure
 
 ```
