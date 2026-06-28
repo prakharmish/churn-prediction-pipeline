@@ -81,3 +81,5 @@ docker run -p 8000:8000 churn-api
 ![SHAP Summary](reports/shap_summary.png)
 
 The model explains every prediction — not just a black box probability.
+
+![Tests](https://github.com/prakharmish/churn-prediction-pipeline/actions/workflows/test.yml/badge.svg)
