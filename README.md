@@ -11,23 +11,25 @@ End-to-end ML pipeline to predict customer churn using the IBM Telco dataset.
 | XGBoost + Optuna | **0.85** | **0.56** |
 
 ## Project Structure
-''''
+## Project Structure
+
+```
 tabular-ml-pipeline/
 ├── src/
-│ ├── ingest.py # Data loading and validation
-│ ├── features.py # Feature engineering
-│ ├── train.py # Model training and evaluation
-│ ├── tune.py # Optuna hyperparameter tuning
-│ ├── evaluate.py # MLflow experiment tracking
-│ └── shap_explain.py # SHAP explainability
+│   ├── ingest.py        # Data loading and validation
+│   ├── features.py      # Feature engineering
+│   ├── train.py         # Model training and evaluation
+│   ├── tune.py          # Optuna hyperparameter tuning
+│   ├── evaluate.py      # MLflow experiment tracking
+│   └── shap_explain.py  # SHAP explainability
 ├── api/
-│ └── main.py # FastAPI serving
+│   └── main.py          # FastAPI serving
 ├── notebooks/
-│ └── eda.ipynb # Exploratory data analysis
-├── reports/ # SHAP charts
+│   └── eda.ipynb        # Exploratory data analysis
+├── reports/             # SHAP charts
 ├── Dockerfile
 └── requirements.txt
-'''
+```
 ## Tech Stack
 
 - **Modeling:** XGBoost, scikit-learn
